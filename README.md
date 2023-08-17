@@ -7,6 +7,7 @@ This repository contains a docker file with relative docker-compose.yml for a do
 - [docker](https://docs.docker.com/install/)
 - [nvidia-docker2](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
 - [docker-compose](https://docs.docker.com/compose/install/)
+- [PhoXi Control installer](https://www.photoneo.com/downloads/phoxi-control/)
 
 Tested on Ubuntu 20.04 with NVIDIA driver version 530 using a Photoneo MotionCam-3D.
 
