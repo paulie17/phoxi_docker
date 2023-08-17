@@ -15,21 +15,21 @@ Tested on Ubuntu 20.04 with NVIDIA driver version 530 using a Photoneo MotionCam
 - Place your "PhotoneoPhoXiControlInstaller-X.X.X-UbuntuYY-STABLE.run" installation file in a folder called "Installer". Edit line 13 of the Dockerfile if you have a different version
 - Run, in the same directory  as the Dockerfile and docker-compose.yml.
 
-        docker compose build phoxi_docker
+        $ docker compose build phoxi_docker
 
     to build the phoxi_docker docker image.
 - Run
   
-        xhost +local:docker
+        $ xhost +local:docker
         
     to make sure the GUI of PhoXiControl can be visualized when running it from a docker container.
 - Run, in the same directory
   
-        docker compose run phoxi_docker
+        $ docker compose run phoxi_docker
 
     to create and run a container from the phoxi_docker image.
 - Run, when the container is running:
   
-        PhoXiControl
+        $ PhoXiControl
 
     to run the GUI of PhoXiControl.
